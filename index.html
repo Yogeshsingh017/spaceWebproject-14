@@ -1,0 +1,63 @@
+<!-- 
+If like my first website please like comment and share 😊-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Nasa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo"></div>
+            <h1 id="name">Traveller</h1>
+            <nav>
+                <ul id="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="https://i.postimg.cc/2yR5Shsj/1636053.png" alt="logo" class="menu-icon" onclick="open_close()">
+        </div>
+
+        <div class="row">
+            <div class="box-1">
+                <div class="line"></div>
+                <h1>The space traveller</h1>
+                <h2>Floating in space </h2>
+                <p>Space Travel | NASA Technology Overview Images Videos Media Resources Follow Space Travel Living in
+                    Space Manufacturing, Materials, 3-D Printing Robotics Science Instruments</p>
+                <p>
+                    <button><a href="http://www.youtube.com/@yogeshsinghvlog1750">Learn to code</a></button>
+
+            </div>
+            <div class="box-2">
+                <img class="astronaut" src="https://i.postimg.cc/vTVQRTDR/Astronauts-1772x1772.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    
+    <script>
+        var Menu_open_close = document.getElementById("menu");
+        Menu_open_close.style.maxHeight = "0px"
+        function open_close() {
+            if (Menu_open_close.style.maxHeight == "0px") {
+                Menu_open_close.style.maxHeight = "200px"
+            } else {
+                Menu_open_close.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+
+</html>
